@@ -1,0 +1,132 @@
+*{
+    color:darkslategray;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-image: url("./images/bubbles.jpg");
+}
+
+header{
+    background-color: white;
+    padding-left: 1%;
+    padding-bottom: 5%;
+}
+
+hgroup{
+    float:left;
+}
+
+.wave-divider{
+    background-image: url("./images/wave-divider.png");
+    background-size: contain;
+    background-position-y: bottom;
+    background-repeat: repeat-x;
+    padding-bottom: 1%;
+}
+
+h1{
+    color:mediumblue;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    font-weight:bold;
+    font-size: xx-large;
+    padding-top: 2%;
+}
+
+h2{
+    color:mediumblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    text-align: left;
+}
+
+h3{
+    color:darkslateblue;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align: left;
+}
+
+hr{
+    width:90%;
+}
+
+.username{
+    font-weight: bold;
+    padding:1em;
+}
+
+.password{
+    font-weight: bold;
+    margin-right: 10%;
+    padding:1em;
+}
+footer{
+    background-color:aliceblue;
+    margin-top: 60%;
+}
+
+nav{
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+nav ul{
+    list-style-type:none;
+}
+  
+nav li{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+section{
+    width:50%;
+    background-color: lightblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border-radius: 2em;
+    border-color: aliceblue;
+    border-style: dashed;
+}
+
+p{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+a:link {
+    color:limegreen
+}
+
+a:hover {
+    color:yellowgreen
+}
+
+a:visited {
+    color:rebeccapurple
+}
+
+span[title]{
+    text-decoration: underline;
+}
+
+span[title="start"]{
+    color: magenta;
+}
+
+span[title="allinone"]{
+    color:darkorchid
+}
+
+span[title="signup"]{
+    color:black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    float:left; 
+    padding:1%;
+}
